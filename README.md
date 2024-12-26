@@ -43,7 +43,7 @@ This project is a proof-of-concept for a Slack app integration designed to manag
      - Install the app to the Slack workspace, then copy the OAuth token provided.  
        Save it in a `.env` file at the root of the project:
        ```bash
-       OATH_TOKEN=oauth-token-here
+       OATH_TOKEN=oauth_token_here
        ```
    - Enable Interactivity:
      - Go to the "Interactivity & Shortcuts" section of the Slack app settings.
@@ -57,7 +57,7 @@ This project is a proof-of-concept for a Slack app integration designed to manag
      - Navigate to the "App Home" section of the Slack app settings and eable the Home Tab by toggling the option on.
 ---
 # Execution Flow
-
+![slack-crt-terminal-flow-chart](https://github.com/user-attachments/assets/830c0676-9179-4f58-84a3-baf0711ac7cf)
 1. `main.py` - The Main Controller
    - Handles incoming Slack requests and routes them to the appropriate response function.
 
